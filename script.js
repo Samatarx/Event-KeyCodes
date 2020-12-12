@@ -17,4 +17,4 @@ window.addEventListener('keydown', (e)=>{
     </div>`
 })
 
-window.focus()
+window.prompt()
