@@ -1,5 +1,6 @@
 const insert = document.getElementById('insert')
 
+
 window.addEventListener('keydown', (e)=>{
     insert.innerHTML = `<div id="insert">
     <div class="key">
@@ -15,3 +16,5 @@ window.addEventListener('keydown', (e)=>{
         <small>event.code</small>
     </div>`
 })
+
+window.focus()
