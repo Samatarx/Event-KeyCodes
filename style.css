@@ -45,10 +45,27 @@ body {
   font-size: 14px;
 }
 
+.input {
+  display: none;
+}
+
 @media (max-width:450px){
   .key {
     display: flex;
     flex-direction: column;
     margin: 50px;
   }
+
+  .input {
+    display: block;
+    background-color: #BE898A;
+    color: #BE898A;
+    border: 0;
+    border-radius: 50%;
+  }
+
+  .input:focus {
+    outline: 0;
+  }
+
 }
